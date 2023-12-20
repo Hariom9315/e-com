@@ -3,20 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .ab{
+            text-align: center;
+        }
+        .product-container{
+            margin: 20px;
+            background-color: lightgray;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .product-item{
+            width: 100%;
+            border: 1px solid black;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .product-item > img{
+            width: 100%;
+            
+        }
+
+
+    </style>
     <title>E Commers Website</title>
 </head>
 <body>
     <div id=" root"> 
-        <h1>E Commerce Website</h1>
-        <div>
-            <div>Product 1</div>
-            <div>Product 2</div>
-            <div>Product 3</div>
-            <div>Product 4</div>
-            <div>Product 5</div>
-            <div>Product 6</div>
-            <div>Product 7</div>
-            <div>Product 8</div>
+        <h1 class="ab">E Commerce Website</h1>
+        <div class="product-container">
+            <div class="product-item"><img src="https://images.meesho.com/images/products/16252491/cbdde_400.webp">
+            <p><b>₹ 345 </b></p>
+            <p><b>Best deals</b></p>
+            <p><b>Rating 4.5</b></p>
+            </div>
+            <div class="product-item"><img src="https://images.meesho.com/images/products/16252491/cbdde_400.webp">
+                <p><b>₹ 345 </b></p>
+                <p><b>Best deals</b></p>
+                <p><b>Rating 4.5</b></p>
+            </div>
+            <div class="product-item"><img src="https://images.meesho.com/images/products/16252491/cbdde_400.webp">
+                <p><b>₹ 345 </b></p>
+                <p><b>Best deals</b></p>
+                <p><b>Rating 4.5</b></p>
+            </div>
+            <div class="product-item"><img src="https://images.meesho.com/images/products/16252491/cbdde_400.webp">
+                <p><b>₹ 345 </b></p>
+                <p><b>Best deals</b></p>
+                <p><b>Rating 4.5</b></p>
+            </div>
+            <div class="product-item"><img src="https://images.meesho.com/images/products/16252491/cbdde_400.webp">
+                <p><b>₹ 345 </b></p>
+                <p><b>Best deals</b></p>
+                <p><b>Rating 4.5</b></p>
+            </div>
+            <div class="product-item">Product 6</div>
+            <div class="product-item">Product 7</div>
+            <div class="product-item">Product 8</div>
+            <div class="product-item">Product 9</div>
         </div>
     </div>
 </body>
